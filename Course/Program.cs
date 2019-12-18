@@ -15,7 +15,7 @@ namespace Course
                 Status = OrderStatus.Delivered
             };
 
-            Console.WriteLine(order);
+            Console.WriteLine("Orderm: " + order);
         }
     }
 }
