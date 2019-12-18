@@ -34,6 +34,14 @@ namespace Reservation
             {
                 Console.WriteLine("Error: " + e.Message);
             }
+            catch (FormatException e)
+            {
+                Console.WriteLine("Error: " + e.Message);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error: " + e.Message);
+            }
         }
     }
 }
